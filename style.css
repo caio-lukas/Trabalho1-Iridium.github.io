@@ -1,0 +1,67 @@
+/* GERAL */
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 1.5em;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(./images/banner.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    padding: 10em;
+    align-items: center;
+}
+
+.menu-header, .texto-header {
+    text-align: center;
+    align-items: center;
+}
+
+.texto-header, .botoes-header {
+    color:#fff;
+}
+
+.menu-header {
+    display:flex;
+    padding: 4em;
+    justify-content:space-between;
+}
+
+.botoes-header {
+    text-decoration: none;
+    border-style:solid;
+    border-color:#fff;
+    border-width: 0.1em;
+    border-radius: 5em;
+    padding: 1.4em;
+}
+
+/* MAIN */
+
+.secao-superior {
+    display:flex;
+}
+
+.imagem-principal {
+    padding-top:1.2em;
+    padding-bottom:1.2em;
+}
+
+.secao-inferior {
+    width: 100%;
+    float:none;
+}
