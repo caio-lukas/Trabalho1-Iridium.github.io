@@ -1,9 +1,5 @@
 /* GERAL */
 
-* {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 h1 {
     font-size: 4em;
 }
@@ -13,6 +9,9 @@ h2 {
 }
 h3 {
     font-size: 1.5em;
+}
+h4 {
+    font-size: 1.3em;
 }
 
 /* HEADER */
@@ -52,16 +51,100 @@ header {
 
 /* MAIN */
 
+    /* SECAO SUPERIOR */
+
 .secao-superior {
     display:flex;
 }
 
-.imagem-principal {
-    padding-top:1.2em;
-    padding-bottom:1.2em;
+.post-principal {
+    padding: 2em;
+    width:60%;
 }
 
+.imagem-principal {
+    padding-top:1.8em;
+    padding-bottom:0.8em;
+}
+
+.texto-principal {  
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+.post-lateral {
+    padding: 2em;
+    width:40%;
+}
+
+.subsecao-lateral {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.titulo-lateral {
+    padding:1em;
+    padding-left:0em;
+}
+
+.imagem-lateral {
+    padding: 1em;
+}
+
+    /* SECAO INFERIOR */
+
 .secao-inferior {
-    width: 100%;
-    float:none;
+    display:flex;
+    padding: 2em;
+    align-items: top;
+}
+
+.imagem-inferior {
+    padding-top:2em;
+}
+
+.texto-inferior {
+    padding-top: 1.8em;
+    padding-bottom: 4.5em;
+}
+
+.botao-inferior {
+    text-decoration:none;
+    color:#fff;
+    background-color: #ff6767;
+    border-radius: 5em;
+    padding: 1.4em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.particao-inferior{
+    padding: 2.5em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(29, 29, 29);
+    padding: 5em 0em;
+}
+
+.titulo-footer {
+    color:#fff;
+    padding-bottom: 1.5em;
+}
+
+.secao-footer {
+    display: flex;
+}
+
+.particao-footer {
+    padding: 3em;
+}
+
+.botao-footer {
+    text-decoration: none;
+    color:#a8a8a8;
+    padding:0.8em;
 }
